@@ -11,5 +11,5 @@ ctx.paint()
 ctx.rectangle(150, 100, 100, 240)
 # sets the fill color to red.
 ctx.set_source_rgb(1,0,0)
-#  fills the defined rectangle with the red color, effectively drawing a red rectangle on the canvas.
+#  fills the defined rectangle with the red color, effectively drawing a red rectangle on the canvas.This function looks at the path we have defined and fills it with the color we previously selected
 ctx.fill() 
