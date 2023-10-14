@@ -23,3 +23,6 @@ ctx.fill()
 ctx.rectangle(350, 170, 200, 200)
 ctx.set_source_rgb(0,0,1)
 ctx.fill()
+
+
+surface.write_to_png("output.png")
