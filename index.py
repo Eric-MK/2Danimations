@@ -7,7 +7,7 @@ ctx.set_source_rgb(0.8, 0.8, 0.8)
 # Fill the Entire Surface with the Set Color
 ctx.paint()
 
-# Draw the image
+# Draw the image rectangle(x,y,width,height) 
 ctx.rectangle(150, 100, 100, 240)
 # sets the fill color to red.
 ctx.set_source_rgb(1,0,0)
