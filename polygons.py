@@ -15,5 +15,9 @@ ctx.set_source_rgb(1, 0, 0)  # Set the line color to red
 ctx.set_line_width(10)       # Set the line width to 10 units
 ctx.stroke()                  # Draw the red line
 
-surface.write_to_png("linestroke.png")
+
+file_path = "output/linestroke.png"
+
+surface.write_to_png(file_path)
+
 
