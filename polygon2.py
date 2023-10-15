@@ -11,6 +11,7 @@ ctx.move_to(50,100) # A
 ctx.line_to(200,50) # B
 ctx.line_to(250, 300)  # c
 ctx.line_to(100,200)  # D
+# completes the closed shape. It adds a line from the current point D back to the first point in the path, which is A.
 ctx.close_path()
 ctx.set_source_rgb(1,0,0)
 ctx.set_line_width(10)
