@@ -19,5 +19,9 @@ ctx.set_source_rgb(1,0,0)
 ctx.set_line_width(10)
 ctx.stroke()
 
-surface.write_to_png("openpolygon.png")
+
+file_path = "output/openpolygon.png"
+
+surface.write_to_png(file_path)
+
 

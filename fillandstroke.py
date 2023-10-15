@@ -28,5 +28,8 @@ ctx.set_line_width(10)
 ctx.stroke()
 
 
-#save the image in a png file
-surface.write_to_png("outputfillstroke.png")
+
+file_path = "output/outputfillstroke.png"
+
+surface.write_to_png(file_path)
+
