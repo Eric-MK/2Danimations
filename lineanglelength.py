@@ -16,6 +16,7 @@ r = 200
 x1 = 300
 y1 = 200
 ctx.move_to(x1,y1)
+# The math.cos(a) and math.sin(a) functions are responsible for converting the angle a into x and y coordinates on the canvas. 
 ctx.line_to(x1 + r*math.cos(a), y1 + r*math.sin(a))
 ctx.stroke()
 
