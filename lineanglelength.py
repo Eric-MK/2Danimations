@@ -12,14 +12,17 @@ ctx.set_line_width(10)
 
 # relative drawing function
 a = 0.523599 # radian equals 30 degree
-r = 200
+r = 100
 x1 = 300
 y1 = 200
 ctx.move_to(x1,y1)
 # The math.cos(a) and math.sin(a) functions are responsible for converting the angle a into x and y coordinates on the canvas. 
-ctx.line_to(x1 + r*math.cos(a), y1 + r*math.sin(a))
+# ctx.line_to(x1 + r*math.cos(a), y1 + r*math.sin(a))
+
+# to draw a line segment relative to the current point (the starting point).
+ctx.rel_line_to(r*math.cos(a),r*math.sin(a))
 ctx.stroke()
 
-file_path = "output/lineangle.png"
+file_path = "output/lineangle2.png"
 
 surface.write_to_png(file_path)
